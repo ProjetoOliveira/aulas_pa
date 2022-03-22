@@ -1,24 +1,24 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :
 // Autor :
 // Data : 14/03/2022
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 nome:caracter
 idade:inteiro
 salario,porcentagem,total:real
 inicio
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 escreval("Digite seu nome: ")
 leia(nome)
 escreval("Digite sua idade: ")
 leia(idade)
-escreval("Digite seu sal·rio: ")
+escreval("Digite seu sal√°rio: ")
 leia(salario)
 
-escreval("O seu nome È: ",nome)
-escreval("A sua idade È: ",idade)
-escreval("O seu sal·rio È: ",salario)
+escreval("O seu nome √©: ",nome)
+escreval("A sua idade √©: ",idade)
+escreval("O seu sal√°rio √©: ",salario)
 
 
 escreval("Digite a % de aumento: ")
