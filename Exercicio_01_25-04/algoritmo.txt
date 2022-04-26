@@ -1,0 +1,6 @@
+Algoritmo Exercicio_01
+   Digite o valor da peça e armazene em VALOR
+   Digite a qtde de peças e armazene em QTDE
+   Faça VT = QTDE * VALOR
+   Mostre VT
+FimAlgoritmo
