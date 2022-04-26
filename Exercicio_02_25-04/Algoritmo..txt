@@ -1,0 +1,6 @@
+Algoritmo EstoqueMedio
+    Entre com o valor para QTDEMINIMA
+    Entre com o valor para QTDEMAXIMA
+    Faça ESTOQUEMEDIO = (QUANTIDADE_MINIMA + QUANTIDADE_MAXIMA)/2
+    Mostre ESTOQUEMEDIO	
+FimAlgoritmo
