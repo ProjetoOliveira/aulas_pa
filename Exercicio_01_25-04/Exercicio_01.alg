@@ -1,8 +1,8 @@
 algoritmo "Exercicio_01"
-// Função :
-// Autor : Heloísa A. de Oliveira
+// FunÃ§Ã£o : Calcular preÃ§os de uma quantidade de peÃ§as
+// Autor : HeloÃ­sa A. de Oliveira
 // Data : 25/04/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 valor: real
 qtde: inteiro
@@ -10,13 +10,15 @@ vt: real
 
 inicio
 // Dados de Entrada
-escreval("Digite o valor da peça:")
+escreval("Digite o valor da peÃ§a:")
 leia(valor)
-escreval("Digite a quantidade de peças:")
+escreval("Digite a quantidade de peÃ§as:")
 leia(qtde)
 //Processamento
 vt<-qtde*valor
-//Dados de Saída
-escreval("O total é: ",vt)
+// Fim de Processamento
+// Dados de SaÃ­da
+escreval("O valor das peÃ§as serÃ¡ de R$: ",vt)
+// Fim dos Dados de SaÃ­da
 
 fimalgoritmo
