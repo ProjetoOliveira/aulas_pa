@@ -1,0 +1,31 @@
+Algoritmo "exerc1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Verificar se o triângulo que o usuario digitar é isósceles, equilátero ou escaleno.
+// Autor(a)    : Heloisa A. de Oliveira
+// Data atual  : 08/08/2022
+Var
+// Seção de Declarações das variáveis 
+a, b, c:inteiro
+
+Inicio
+escreval("Digite A: ")
+leia(a)
+escreval("Digite B: ")
+leia(b)
+escreval("Digite C: ")
+leia(c)
+se((abs(b-c)<a) E (a<b+c) e (abs(a-c)<b) E (b<a+c) e (abs(a-b)<c) E (c<a+b) ) entao
+//É TRIANGULO VERIFICAR O TIPO
+se((a=b) e (b=c)) entao
+   escreval("EQUILÁTERO")
+senao
+   se((a<>b) e (b<>c))entao
+     escreval("ESCALENO")
+   senao
+     escreval("ISÓSCELES")
+   fimse
+ fimse
+senao
+escreval("NÃO É UM TRIÂNGULO")
+fimse
+Fimalgoritmo
